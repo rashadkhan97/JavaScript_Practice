@@ -1,5 +1,6 @@
 const numbers = [10, 20, 30]
 
+// ---------- Push, Pop, Shift, unshift, slice, splice PART ----------
 numbers.push(50, 60, 70);
 console.log("After push numbers: " + numbers) // [10,20,30,50,60,70]
 
@@ -47,3 +48,6 @@ console.log(objArr) // [{index:0, value:5}, {index:1, value:66}, ...]
 // 6. filter + map chain
 let bigDoubled = numbers.filter(n => n > 50).map(n => n * 2);
 console.log("Filter + map: " + bigDoubled) // [132,152,120]
+
+
+// ---------- find and Filter PART ----------
