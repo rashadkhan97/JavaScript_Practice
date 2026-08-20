@@ -18,6 +18,6 @@ const newUser = {
 }
 
 users.push(newUser);
-console.log(users); // move here, after push
+console.log("after push: ",users); // move here, after push
 // now we need to write inside the json file
 writeFileSync(filename, JSON.stringify(users,null,2)) //write jokhn kortesi first ei object hisebe write hocche bt json file e String hisebe save hobe tai JSON.stringify use kora
